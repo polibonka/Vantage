@@ -416,3 +416,7 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.design_item {
+  height: 1px;
+}
