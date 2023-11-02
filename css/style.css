@@ -549,40 +549,57 @@ a {
 
 .footer_link {
   color: var(--white);
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 309.091% */
+  letter-spacing: 2.763px;
+  text-transform: uppercase;
 }
 .footer_menu {
   display: flex;
-  align-items: center;
   gap: 37px;
   justify-content: end;
+  padding-right: 69px;
 }
 
-.footer .container {
+.footer_rectangle .container {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
+  padding: 17px 0;
 }
 
 .footer_rectangle {
   background-color: #3d3d3d;
   width: 1304px;
   height: 272px;
-  position: relative;
-  top: 400px;
-  padding-top: 68px;
+  position: absolute;
+  top: 380px;
+  padding-top: 10px;
+  padding-left: 68px;
 }
 
-.fooer_boxtext {
+.footer_boxtext {
   background-color: var(--gold);
   width: 1168px;
   height: 204px;
-  position: relative;
-  top: 400px;
+  position: absolute;
+  top: 450px;
+  display: flex;
+  align-items: center;
+  right: 70px;
+  padding: 68px;
+  z-index: 3;
 }
 
 .footer_form-wrapper {
   background-color: var(--white);
   display: flex;
+  width: 860px;
+  height: 68px;
 }
 
 .footer_form {
@@ -595,7 +612,6 @@ a {
   line-height: 34px; /* 309.091% */
   letter-spacing: 2.763px;
   text-transform: uppercase;
-
   border: none;
 }
 
@@ -613,4 +629,78 @@ a {
   text-transform: uppercase;
   width: 155px;
   height: 68px;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer_links {
+  color: var(--white);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 309.091% */
+  letter-spacing: 2.763px;
+  text-transform: uppercase;
+}
+
+.footer_sites {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 309.091% */
+  letter-spacing: 2.763px;
+  text-transform: uppercase;
+}
+
+.footer_box-btn {
+  display: flex;
+}
+
+.footer_form input {
+  outline: none;
+  width: 860px;
+  height: 68px;
+}
+
+.footer_site {
+  color: var(--white);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 309.091% */
+  letter-spacing: 2.763px;
+  text-transform: uppercase;
+}
+
+.footer_wrapper {
+  position: relative;
+  top: 650px;
+  display: flex;
+  justify-content: center;
+  gap: 638px;
+  z-index: 2;
+  padding-top: 17px;
+}
+
+.footer_list {
+  display: flex;
+  gap: 36px;
+}
+
+.footer_background {
+  width: 1440px;
+  height: 240px;
+  background-color: var(--black);
+  position: relative;
+  top: 416px;
+  z-index: 1;
+  padding-top: 17px;
 }
